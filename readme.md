@@ -24,7 +24,7 @@
         DB_PASSWORD=SUA_SENHA
         DB_PORT=5432
     
-    A chave da API Weatherstack deve ser obtida no site oficial da Weatherstack.
+  A chave da API Weatherstack deve ser obtida no site oficial da Weatherstack.
 
 3. Executar o script 
     
@@ -34,8 +34,9 @@
 
 # Premissas adotadas no desenvolvimento:
     
-    1. A lógica inicial foi prototipada utilizando a plataforma Make. No entanto, essa abordagem exigia o uso de um banco de dados em nuvem. Para simplificar a execução e permitir testes locais, optou-se pela implementação em Python com PostgreSQL local.
+  1. A lógica inicial foi prototipada utilizando a plataforma Make. No entanto, essa abordagem exigia o uso de um banco de dados em nuvem. Para simplificar a execução e permitir testes locais, optou-se pela implementação em Python com PostgreSQL local.
 
-    2. Durante o desenvolvimento, foi identificado um limite de requisições da API Weatherstack (erro Too Many Requests). Para contornar essa limitação, foi implementado um atraso (delay) entre as requisições, garantindo a coleta dos dados de todas as capitais.
+  2. Durante o desenvolvimento, foi identificado um limite de requisições da API Weatherstack (erro Too Many Requests). Para contornar essa limitação, foi implementado um atraso (delay) entre as requisições, garantindo a coleta dos dados de todas as capitais.
 
-    3. Embora não fosse obrigatório, o script utiliza dados de clima atual e simula uma previsão de 7 dias com pequenas variações, atendendo ao requisito lógico de processamento por múltiplos dias.
+
+  3. Embora não fosse obrigatório, o script utiliza dados de clima atual e simula uma previsão de 7 dias com pequenas variações, atendendo ao requisito lógico de processamento por múltiplos dias.
